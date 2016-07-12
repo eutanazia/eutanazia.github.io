@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 377.9 214.1" enable-background="new 0 0 377.9 214.1" xml:space="preserve">
+<g id="locked">
+	<g>
+		<rect x="0" y="0" fill="#20343E" width="377.9" height="214.1"/>
+		<rect x="200" y="26.2" fill="#2D3F49" width="153.1" height="162.6"/>
+		<rect x="25.5" y="26.2" fill="#2D3F49" width="153.1" height="162.6"/>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="325.7172" y1="103.0587" x2="220.6663" y2="103.0587">
+			<stop  offset="3.553492e-02" style="stop-color:#7CC7FF"/>
+			<stop  offset="1" style="stop-color:#4178BE"/>
+		</linearGradient>
+		<circle fill="url(#SVGID_1_)" cx="280.8" cy="103.1" r="51.9"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="239.5468" y1="103.0587" x2="322.1407" y2="103.0587">
+			<stop  offset="3.553492e-02" style="stop-color:#7CC7FF"/>
+			<stop  offset="1" style="stop-color:#4178BE"/>
+		</linearGradient>
+		<circle fill="url(#SVGID_2_)" cx="280.8" cy="103.1" r="41.3"/>
+		<g>
+			<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="281.7" y1="100.5" x2="281.7" y2="120"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="275,107.1 281.7,100.5 288.3,107.1 			"/>
+			<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M285.9,113.6c4.1,0,9.1,0,10.9,0c3.6,0,6.6-2.9,6.6-6.6
+				s-2.9-6.6-6.6-6.6c-0.6,0-1.1,0.1-1.6,0.2c0-0.2,0-0.4,0-0.6c0-7.5-6.1-13.6-13.6-13.6c-6.3,0-11.6,4.3-13.1,10.1
+				c-0.5-0.1-1.1-0.2-1.6-0.2c-4.8,0-8.6,3.9-8.6,8.6s3.9,8.6,8.6,8.6c1.5,0,5.5,0,9.1,0"/>
+		</g>
+		<line fill="none" stroke="#42535C" stroke-width="4" stroke-miterlimit="10" x1="78.4" y1="108.7" x2="128.4" y2="108.7"/>
+		<line fill="none" stroke="#42535C" stroke-width="4" stroke-miterlimit="10" x1="78.4" y1="147.7" x2="128.4" y2="147.7"/>
+		<line fill="none" stroke="#42535C" stroke-width="4" stroke-miterlimit="10" x1="79.4" y1="68.7" x2="128.4" y2="68.7"/>
+		<polyline fill="none" stroke="#5AAAFA" stroke-width="3" stroke-miterlimit="10" points="137.8,67.5 143.3,73.1 154.3,62.1 		"/>
+		<polyline fill="none" stroke="#5AAAFA" stroke-width="3" stroke-miterlimit="10" points="137.8,104.5 143.3,110.1 154.3,99.1 		
+			"/>
+		<polyline fill="none" stroke="#5AAAFA" stroke-width="3" stroke-miterlimit="10" points="137.8,143.5 143.3,149.1 154.3,138.1 		
+			"/>
+		<circle fill="#42535C" cx="57.8" cy="67.7" r="12.5"/>
+		<circle fill="#42535C" cx="57.8" cy="106.7" r="12.5"/>
+		<circle fill="#42535C" cx="57.8" cy="146.7" r="12.5"/>
+		<rect x="35.1" y="61.9" fill="none" width="46" height="130"/>
+		<text transform="matrix(1 0 0 1 54.1766 71.9357)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="14">1</tspan><tspan x="0" y="40" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="14">2</tspan><tspan x="0" y="80" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="14">3</tspan></text>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

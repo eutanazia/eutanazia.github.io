@@ -1,12 +1,337 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Testing </title>
-  </head>
-  <body>
-    <div class="">
-      <h1>Hello World Out There</h1>
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Endju Tech</title>  <meta name="viewport" content="width=device-width, initial-scale=1">  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">  <link rel="stylesheet" href="css/vn.css">  <link rel="stylesheet" href="css/w3.css">
+  <link rel="icon" href="img/endju.png" type="image/png" sizes="32x32"><script src="js/jquery.js"></script><script src="js/script.js"></script>
+<style>  body{background-image:url('./img/background.png')} html,body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif} *{font-family: 'Montserrat'}  .mySlides {display:none}  .w3-left, .w3-right, .w3-tag {cursor:pointer}  .w3-tag {height:15px;width:15px;padding:0;margin-top:6px; border-radius: 100%}
+            </style>
+    </head>
+<body>
+  <!-- Barra de Navegacao Lateral -->
+  <nav class="w3-sidenav w3-white w3-card-2 w3-border w3-hide-large " style="display:none; z-index:1000" id="mySidenav">
+      <a href="javascript:void(0)"
+      onclick="w3_close()"
+      class="w3-closenav w3-large w3-border-bottom">Close &times;</a>
+      <a href="index.html" class="w3-border-bottom">HOME</a>
+      <a href="aboutus.html" class="w3-border-bottom">ABOUT US</a>
+      <a href="service.html" class="w3-border-bottom">SERVICES</a>
+      <a href="aboutus.html#team" class="w3-border-bottom">TEAM</a>
+      <a href="product.html" class="w3-border-bottom">PRODUCTS</a>
+      <a href="index.html#contact">CONTACT</a>
+  </nav>
+
+  <!-- Menu para smartphones e dispositivos pequenos -->
+
+  <div style="color:red; background:#444;" class="w3-row  w3-hide-large w3-hide-medium w3-top " >
+    <nav class="w3-padding-bottom" >
+      <ul class="w3-padding-right   w3-padding-bottom" id="vn-nav" style="">
+        <li class="w3-col s4 " style="text-align:left; "><a href="index.html">ENDJU</a></li>
+        <li class="w3-col s5 w3-center"><a href="index.html#contact" ><i class="fa fa-envelope"></i></a> </li>
+        <li class="w3-col s3 " style="text-align:right;"  onclick="w3_open()"><i class="fa fa-bars"></i> </li>
+      </ul>
+    </nav>
+  </div>
+
+
+<!-- Content -->
+<div class="" id="main">
+<div class=" w3-row" style="margin-bottom:80px; ">
+  <div class="w3-section  w3-hide-small  w3-black " style="background:rgba(0, 0, 0, 0.90);">
+    <h1><b></b></h1>
+    <!-- Barra de Navegacao Principal-->
+    <ul class=" w3-navbar  w3-top w3-left-align w3-center  w3-large" style="background:rgba(0, 0, 0, 0.40);">
+      <li class="" style=""><a href="index.html"><img src="img/logosmall.png" alt="" class="w3-image" style="max-width:150px; vertical-align:middle"/></a></li>
+      <li class="w3-left w3-col l2 w3-padding-top" style="margin-top:20px;"><a href="aboutus.html" class="">About us</a></li>
+      <li class="w3-left w3-col l2 w3-padding-top" style="margin-top:20px"><a href="service.html" class="">Services</a></li>
+      <li class="w3-left w3-col l2 w3-padding-top" style="margin-top:20px"><a href="aboutus.html#team" class="">Team</a></li>
+      <li class="w3-left w3-col l2 w3-padding-top" style="margin-top:20px"><a href="product.html" class="">Products</a></li>
+
+      <li class="w3-left w3-col l2 w3-padding-top" style="margin-top:20px"><a href="index.html#contact" class="">Contacts</a></li>
+    </ul>
+  </div>
+
+  <!-- SLIDE -->
+  <div class="w3-display-container mySlides" style="display: block;">
+    <img src="img/slidea.png" style="width:100%">
+    <div class="w3-display-middle w3-text-white w3-container w3-padding-32 w3-hide-small">
+      <div class=" w3-animate-bottom">
+
+          <div class="">
+
+            <span class=" w3-xxlarge w3-padding w3-round" style="background:rgba(0,0,0,0.45)">Find what you want, anytime anywhere</span>
+          </div>
+        <p class="w3-btn w3-white">
+        To be launched in two weeks
+        </p>
+      </div>
     </div>
-  </body>
-</html>
+  </div>
+  <div class="w3-display-container mySlides" style="display: none;">
+    <img src="img/mediasocial.png" style="width:100%">
+    <div class=" w3-display-middle">
+        <div class=" w3-animate-bottom">
+          <span class=" w3-xxlarge w3-padding w3-round w3-text-white" style="background:rgba(0,0,0,0.45)">Join Nguimbi and share the time of your life</span>
+        </div>
+      <p class="w3-btn  w3-red">
+        <a href="http://www.nguimbi.com">  Create an account</a>
+      </p>
+    </div>
+  </div>
+  <div class="w3-display-container mySlides" style="display: none;">
+    <img src="img/faceangopapo.jpg" style="width:100%">
+    <div class=" w3-display-middle">
+        <div class=" w3-animate-bottom">
+          <span class=" w3-xxlarge w3-padding w3-round w3-text-white" style="background:rgba(0,0,0,0.45)">More friends, everytime everywhere</span>
+        </div>
+      <p class="w3-btn w3-blue">
+        <a href="http://www.angopapo.com">Read more</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Slideshow next/previous buttons -->
+  <div class="w3-container w3-dark-grey w3-padding-8">
+    <div class="w3-left w3-hover-text-teal w3-large" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-teal w3-large" onclick="plusDivs(1)">&#10095;</div>
+
+    <div class="w3-center">
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white w3-white" onclick="currentDiv(1)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row ">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Can do for You and Your Business</span>
+    </div>
+
+    <div class="w3-row w3-dark-grey">
+      <div class="w3-col l3 m6  w3-padding-large">
+          <div class="w3-white w3-padding">
+              <img src="img/mobile.jpg" class="w3-image" alt="Mobile Section ">
+              <h3>Mobile Application Design and Development</h3>
+              <p style="text-align:justify">Got any idea for an app and no clue how to deliver it? Talk to us and see your thought unfold. Doesn't matter if it is iOS, Windows or Android platform.
+               </p>
+          </div>
+      </div>
+      <div class="w3-col l3 m6  w3-padding-large">
+          <div class="w3-light-grey w3-padding">
+              <img src="img/webdevelop.png" class="w3-image" alt="Web Application Design and Dev.">
+              <h3>Web Application Design and Dev.</h3>
+              <p style="text-align:justify">The web is the third component you need these days to thrive your business, it is where most of your custumers are.
+                Want to reach them out? Build a website. From e-Commerces,
+                 Socialnetworks, CMS, <!-- Wordpress Themes build or customization --> to Content creation.<span class="">  <a href="#" class="w3-btn"> We are the right partners</a></span></p>
+          </div>
+
+      </div>
+      <div class="w3-col l3 m6  w3-padding-large">
+        <div class="w3-padding w3-grey">
+          <img src="img/consult.jpg" class="w3-image" alt="Mobile Section ">
+          <h3>Business Consultation & Digital Marketing</h3>
+          <p style="text-align:justify"><i>How do you measure your business success? Are the right tools being implemented? Do you have the right team or the right product? <!--Are you chasing the wind?
+            Do people really need your product or you are just living a daydream alone?--></i> The foregone questions are worth asking when escalating your business.
+              <span><a href="#" class="w3-btn">Just ask if you want help </a></span></p>
+        </div>
+      </div>
+      <div class="w3-col l3 m6  w3-padding-large">
+        <div class="w3-padding w3-blue-grey">
+          <img src="img/cable.jpg" class="w3-image" alt="Mobile Section ">
+          <h3>Network & Servers Infrastructure and Security</h3>
+          <p class="" style="text-align:justify">The threat to your network is real and eminent 24/7. There is a legion of badguys who love
+          experimenting. They are patient and intelligent. They will make everything to penetrate your network.
+        That is why they have to be designed and implemented in the most secured way.<span>  <a href="#" class="w3-btn">Read more about this</a></span>
+         <!-- A design that approaches pyschlogical (social engineering)
+      and physical protetion (hardware), logical (software) threats.-->  </p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding w3-padding" style="margin:0 -16px; ">
+
+
+    <div class="w3-center w3-padding-32">
+      <span class="w3-xlarge">Events / News</span>
+      <p>Find out wants is going on</p>
+    </div>
+
+    <div class="w3-row-padding w3-padding" style="background-color: rgb(50, 92, 128);">
+        <br><br><br>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border  w3-hover-shadow w3-white">
+          <li class="w3-blue-grey w3-center">
+            <p class="w3-xlarge ">Seedstar Luanda</p>
+          </li>
+          <li class="w3-padding-16">
+              <p class="w3-padding w3-large" style="text-align:justify; font-family:'Segoe UI'">
+              Seedstars World is a Switzerland based startup competition that takes place
+              in emerging markets. Our vision is to reduce unemployment in emerging markets
+               through the promotion and investment in entrepreneurship.
+              Have a great freaking project?
+              </p>
+
+          </li>
+
+          <li class="w3-light-grey w3-padding-24 w3-center">
+            <button class="w3-btn w3-dark-grey w3-padding-large"><a href="http://www.seedstarsworld.com/event/seedstars-luanda-2016/" style="text-decoration:none;">Apply</a></button>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="w3-third w3-margin-bottom ">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow  w3-white">
+          <li class="w3-blue-grey">
+            <p class="w3-xlarge"><span class="w3-padding"><img src="img/b3.png" class="w3-image" alt="" style="max-width:50px; vertical-align:middle"/></span>Products Competing </p>
+          </li>
+          <li class="w3-padding-16 w3-large "><a href="http://endjubusiness.co.ao"><b>Endjubusiness.co.ao</b></a></li>
+          <li class="w3-padding-16 w3-large"><a href="http://angopapo/com"><b>Angopapo</b></a></li>
+          <li class="w3-padding-16 w3-large"><b><a href="http://nguimbi.com/">Nguimbi</a></b> </li>
+
+
+          <li class="w3-light-grey w3-padding-24">
+            <a href="service.html">  <button class="w3-btn w3-dark-grey w3-padding-large">Check the complete list</button></a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="w3-third w3-margin-bottom  ">
+        <div class="">
+          <ul class="w3-ul w3-border w3-center w3-hover-shadow w3-white">
+            <li class="w3-light-grey">
+            <p class="w3-xlarge">  <span class="w3-padding"><img src="img/techcrunch.png" class="w3-image w3-circle" style="max-width:50px; vertical-align:middle" alt="" /></span>News from Techcrunch</p>
+            </li>
+            <li class="w3-padding-16"></li>
+            <p style="font-family:'Segoe UI'" class="w3-padding w3-large">
+              Berlin is having a moment. In 2015, the city I live in was the fastest-growing startup ecosystem in the world and received the most venture
+               capital investment of any city in Europe. Startups headquartered in Berlin, like Delivery Hero and SoundCloud, have become global giants,
+               and many startups across the Atlantic run their
+            </p>
+
+            </li>
+            <li><a href="https://techcrunch.com/tag/berlin/"></a><button class="w3-btn w3-dark-grey w3-padding-large">Read more</button></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding w3-padding-64 w3-centered w3-center" style="margin:0 -16px">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Our partners</span>
+    </div>
+
+      <div class="w3-content">
+          <div class="w3-quarter  w3-margin-bottom w3-padding  w3-white">
+              <div class="w3-card-4">
+                  <a href="http://www.tecretina.co.ao/"></a><img src="img/retina.png" alt="Tec Retina " class="w3-image"  style="">
+                  <div class="w3-container">
+                  </div>
+              </div>
+          </div>
+          <div class="w3-quarter  w3-margin-bottom w3-padding  w3-white">
+              <div class="w3-card-4">
+                  <a href="http://kiandahub.com/"></a><img src="img/kianda.png" alt="Kianda Hub" style="width:100%">
+                  <div class="w3-container">
+                  </div>
+              </div>
+          </div>
+          <div class="w3-quarter  w3-margin-bottom w3-padding  w3-white">
+              <div class="w3-card-4">
+                  <a href="http://southbendcodeschool.com/"></a><img src="img/codeschool.png" alt="South Bend School Of Coding" style="width:100%">
+                  <div class="w3-container">
+
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="w3-quarter w3-margin-bottom w3-padding  w3-white">
+              <div class="w3-card-4">
+                  <img src="img/radio.png" alt="Radio UnIA" style="width:100%">
+                  <div class="w3-container">
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+
+  </div>
+
+  <!-- Contact -->
+  <div class="" id="contact">
+    <br><br><br><br>
+  </div>
+  <div class="w3-container w3-content" >
+    <div class="w3-center ">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Want to drop a message or say something?</span>
+    </div>
+
+    <form class="" method="post" action="thanks.html">
+      <div class="w3-group">
+
+        <input class="w3-input w3-border w3-hover-border-black" name="name" style="width:100%;" placeholder="Name" type="text">
+      </div>
+      <div class="w3-group">
+
+        <input class="w3-input w3-border w3-hover-border-black" name="email" style="width:100%;" placeholder="Email" type="Email">
+      </div>
+      <div class="w3-group">
+
+        <input class="w3-input w3-border w3-hover-border-black" name="subject" placeholder="Subjects" style="width:100%;">
+      </div>
+      <div class="w3-group">
+
+        <textarea class="w3-input w3-border w3-hover-border-black" name="message" type="address" placeholder="address" style="width:100%;" >
+        </textarea>
+      </div>
+      <div class="w3-group" style="display:none;">
+        <div class="">
+          Please leave this field empty
+        </div>
+        <input class="w3-input w3-border w3-hover-border-black" name="address" placeholder="Message" style="max-width:100%;" >
+      </div>
+      <button type="submit" class="w3-btn w3-dark-grey w3-btn-block w3-padding-12">Send</button>
+    </form>
+  </div>
+<p>
+  <br>
+</p>
+<!-- GOOGLE MAP -->
+    <div class="w3-row ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7884.719617318971!2d13.224644456344738!3d-8.846053472116091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f39f00c60153%3A0x14775fb241c164e7!2zOMKwNTAnNDEuMSJTIDEzwrAxMycyMy40IkU!5e0!3m2!1sen!2s!4v1468036840882"
+      width="100%" height="600" frameborder="0" style="border:0; max-width:100%" allowfullscreen>
+      </iframe>
+    </div>
+
+<!-- FIM DA SECCAO DO GOOGLE MAP -->
+<div class="">
+
+</div>
+  <!-- Fim da Seccao e Contacto -->
+
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4></h4>
+  <p style="color:red;"><span class="w3-large">&copy;</span><a href="http://www.endju.github.io/index.html" style="text-decoration:none; " > Endju LTD </a><span id="data"></span><?php echo date('Y'); ?></p>
+</footer>
+</div><!-- FIM DO PAGINA -->
+<script src="js/require.js"></script>
+
+</body></html>
